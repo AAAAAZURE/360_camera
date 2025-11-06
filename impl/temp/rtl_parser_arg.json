@@ -1,0 +1,117 @@
+{
+ "Device" : "GW5AST-138B",
+ "Files" : [
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/bt_servo_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/cmos_8_16bit.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/ddr3_memory_interface/DDR3MI_400M.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/downscale_3x_bram.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/dual_cam_stream_mux.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/dvi_tx/DVI_TX_Top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/fifo_top/video_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/gowin_pll/TMDS_PLL_60HZ.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/gowin_pll/gowin_pll_400M.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/i2c_master/i2c_config.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/i2c_master/i2c_master_bit_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/i2c_master/i2c_master_byte_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/i2c_master/i2c_master_defines.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/i2c_master/i2c_master_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/i2c_master/timescale.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/lut_ov5640_rgb565_1280_720.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/servo_pwm.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/syn_gen.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/testpattern.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/uart_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/uart_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/vga_timing.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/video_frame_buffer/Video_Frame_Buffer_Top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/video_timing_check.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/31136/Desktop/camera/cam360/src/yuv422_to_rgb565.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/31136/Desktop/camera/cam360/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,19 @@
+-d C:\Users\31136\Desktop\camera\cam360\impl\gwsynthesis\cam2dvi.vg
+-p GW5AST-138B-PBGA484A-1
+-pn GW5AST-LV138PG484AC1/I0
+-cst C:\Users\31136\Desktop\camera\cam360\src\138K_DOCK.cst
+-cfg C:\Users\31136\Desktop\camera\cam360\impl\pnr\device.cfg
+-sdc C:\Users\31136\Desktop\camera\cam360\src\TMDS_60HZ.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-place_option 0
+-route_option 0
+-clock_route_order 0
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000
+-enable_dsrm 0

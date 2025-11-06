@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="116" Lut="376" MULTADDALU12X12="6" T_Register="6393(116)" T_Alu="418(0)" T_Lut="6086(376)" T_MULTALU27X18="5(0)" T_MULTADDALU12X12="6(6)" T_Bsram="224(0)">
+ <SubModule name="Gowin_PLL_m0"/>
+ <SubModule name="i2c_config_m0" Register="13" Lut="26" T_Register="124(13)" T_Alu="15(0)" T_Lut="854(26)">
+  <SubModule name="i2c_master_top_m0" Register="17" Lut="681" T_Register="111(17)" T_Alu="15(0)" T_Lut="828(681)">
+   <SubModule name="byte_controller" Register="23" Lut="50" T_Register="94(23)" T_Alu="15(0)" T_Lut="147(50)">
+    <SubModule name="bit_controller" Register="71" Alu="15" Lut="97" T_Register="71(71)" T_Alu="15(15)" T_Lut="97(97)"/>
+   </SubModule>
+  </SubModule>
+ </SubModule>
+ <SubModule name="cmos_8_16bit_m0" Register="26" Lut="18" T_Register="26(26)" T_Lut="18(18)"/>
+ <SubModule name="cmos_8_16bit_m1" Register="26" Lut="18" T_Register="26(26)" T_Lut="18(18)"/>
+ <SubModule name="cmos_8_16bit_m2" Register="26" Lut="18" T_Register="26(26)" T_Lut="18(18)"/>
+ <SubModule name="vga_timing_m0" Register="50" Alu="18" Lut="66" T_Register="50(50)" T_Alu="18(18)" T_Lut="66(66)"/>
+ <SubModule name="u_cam0_ds" Register="52" Lut="149" MULTALU27X18="1" Bsram="64" T_Register="52(52)" T_Lut="149(149)" T_MULTALU27X18="1(1)" T_Bsram="64(64)"/>
+ <SubModule name="u_cam1_ds" Register="52" Lut="154" MULTALU27X18="1" Bsram="64" T_Register="52(52)" T_Lut="154(154)" T_MULTALU27X18="1(1)" T_Bsram="64(64)"/>
+ <SubModule name="u_cam2_ds" Register="52" Lut="129" MULTALU27X18="1" Bsram="64" T_Register="52(52)" T_Lut="129(129)" T_MULTALU27X18="1(1)" T_Bsram="64(64)"/>
+ <SubModule name="Video_Frame_Buffer_Top_inst" Register="311" Alu="30" Lut="610" Bsram="8" T_Register="311(311)" T_Alu="30(30)" T_Lut="610(610)" T_Bsram="8(8)"/>
+ <SubModule name="u_ddr3" Register="5303" Alu="189" Lut="3132" Bsram="24" T_Register="5303(5303)" T_Alu="189(189)" T_Lut="3132(3132)" T_Bsram="24(24)"/>
+ <SubModule name="u_tmds_pll"/>
+ <SubModule name="DVI_TX_Top_inst0" Register="73" Alu="69" Lut="229" T_Register="73(73)" T_Alu="69(69)" T_Lut="229(229)"/>
+ <SubModule name="u_bt_servo_ctrl" Register="75" Alu="75" Lut="175" MULTALU27X18="1" T_Register="182(75)" T_Alu="97(75)" T_Lut="333(175)" T_MULTALU27X18="2(1)">
+  <SubModule name="u_rx" Register="40" Lut="58" T_Register="40(40)" T_Lut="58(58)"/>
+  <SubModule name="u_tx" Register="24" Lut="43" T_Register="24(24)" T_Lut="43(43)"/>
+  <SubModule name="u_servo" Register="43" Alu="22" Lut="57" MULTALU27X18="1" T_Register="43(43)" T_Alu="22(22)" T_Lut="57(57)" T_MULTALU27X18="1(1)"/>
+ </SubModule>
+</Module>

@@ -1,0 +1,288 @@
+[
+ {
+  "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/dual_cam_stream_mux.v",
+  "InstLine" : 1,
+  "InstName" : "dual_cam_stream_mux",
+  "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/dual_cam_stream_mux.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "dual_cam_stream_mux",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/dual_cam_stream_mux.v",
+    "InstLine" : 133,
+    "InstName" : "u_fifo0",
+    "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/fifo_top/video_fifo.v",
+    "ModuleLine" : 825,
+    "ModuleName" : "video_fifo",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/fifo_top/video_fifo.v",
+      "InstLine" : 850,
+      "InstName" : "fifo_inst",
+      "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/fifo_top/video_fifo.v",
+      "ModuleLine" : 13,
+      "ModuleName" : "~fifo.video_fifo"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/dual_cam_stream_mux.v",
+    "InstLine" : 146,
+    "InstName" : "u_fifo1",
+    "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/fifo_top/video_fifo.v",
+    "ModuleLine" : 825,
+    "ModuleName" : "video_fifo",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/fifo_top/video_fifo.v",
+      "InstLine" : 850,
+      "InstName" : "fifo_inst",
+      "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/fifo_top/video_fifo.v",
+      "ModuleLine" : 13,
+      "ModuleName" : "~fifo.video_fifo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/syn_gen.v",
+  "InstLine" : 13,
+  "InstName" : "syn_gen",
+  "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/syn_gen.v",
+  "ModuleLine" : 13,
+  "ModuleName" : "syn_gen"
+ },
+ {
+  "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+    "InstLine" : 191,
+    "InstName" : "Gowin_PLL_m0",
+    "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/gowin_pll/gowin_pll_400M.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLL"
+   },
+   {
+    "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+    "InstLine" : 544,
+    "InstName" : "lut_ov5640_rgb565_m0",
+    "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/lut_ov5640_rgb565_1280_720.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "lut_ov5640_rgb565"
+   },
+   {
+    "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+    "InstLine" : 556,
+    "InstName" : "i2c_config_m0",
+    "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/i2c_master/i2c_config.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "i2c_config",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/i2c_master/i2c_config.v",
+      "InstLine" : 101,
+      "InstName" : "i2c_master_top_m0",
+      "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/i2c_master/i2c_master_top.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "i2c_master_top",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/i2c_master/i2c_master_top.v",
+        "InstLine" : 232,
+        "InstName" : "byte_controller",
+        "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/i2c_master/i2c_master_byte_ctrl.v",
+        "ModuleLine" : 75,
+        "ModuleName" : "i2c_master_byte_ctrl",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/i2c_master/i2c_master_byte_ctrl.v",
+          "InstLine" : 146,
+          "InstName" : "bit_controller",
+          "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/i2c_master/i2c_master_bit_ctrl.v",
+          "ModuleLine" : 143,
+          "ModuleName" : "i2c_master_bit_ctrl"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+    "InstLine" : 586,
+    "InstName" : "cmos_8_16bit_m0",
+    "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/cmos_8_16bit.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "cmos_8_16bit"
+   },
+   {
+    "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+    "InstLine" : 611,
+    "InstName" : "cmos_8_16bit_m1",
+    "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/cmos_8_16bit.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "cmos_8_16bit"
+   },
+   {
+    "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+    "InstLine" : 639,
+    "InstName" : "cmos_8_16bit_m2",
+    "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/cmos_8_16bit.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "cmos_8_16bit"
+   },
+   {
+    "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+    "InstLine" : 666,
+    "InstName" : "vga_timing_m0",
+    "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/vga_timing.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "vga_timing"
+   },
+   {
+    "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+    "InstLine" : 730,
+    "InstName" : "u_cam0_ds",
+    "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/downscale_3x_bram.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "downscale_3x_bram"
+   },
+   {
+    "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+    "InstLine" : 758,
+    "InstName" : "u_cam1_ds",
+    "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/downscale_3x_bram.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "downscale_3x_bram"
+   },
+   {
+    "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+    "InstLine" : 787,
+    "InstName" : "u_cam2_ds",
+    "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/downscale_3x_bram.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "downscale_3x_bram"
+   },
+   {
+    "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+    "InstLine" : 948,
+    "InstName" : "Video_Frame_Buffer_Top_inst",
+    "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/video_frame_buffer/Video_Frame_Buffer_Top.v",
+    "ModuleLine" : 5024,
+    "ModuleName" : "Video_Frame_Buffer_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/video_frame_buffer/Video_Frame_Buffer_Top.v",
+      "InstLine" : 5085,
+      "InstName" : "vfb_ddr3_wrapper_inst",
+      "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/video_frame_buffer/Video_Frame_Buffer_Top.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "~vfb_ddr3_wrapper.Video_Frame_Buffer_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+    "InstLine" : 988,
+    "InstName" : "u_ddr3",
+    "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/ddr3_memory_interface/DDR3MI_400M.v",
+    "ModuleLine" : 31949,
+    "ModuleName" : "DDR3MI",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/ddr3_memory_interface/DDR3MI_400M.v",
+      "InstLine" : 32034,
+      "InstName" : "gw3_top",
+      "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/ddr3_memory_interface/DDR3MI_400M.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "~GW_DDR3_PHY_MC.DDR3MI"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+    "InstLine" : 1076,
+    "InstName" : "u_tmds_pll",
+    "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/gowin_pll/TMDS_PLL_60HZ.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "TMDS_PLL"
+   },
+   {
+    "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+    "InstLine" : 1123,
+    "InstName" : "DVI_TX_Top_inst0",
+    "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/dvi_tx/DVI_TX_Top.v",
+    "ModuleLine" : 1089,
+    "ModuleName" : "DVI_TX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/dvi_tx/DVI_TX_Top.v",
+      "InstLine" : 1120,
+      "InstName" : "rgb2dvi_inst",
+      "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/dvi_tx/DVI_TX_Top.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "~rgb2dvi.DVI_TX_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/top.v",
+    "InstLine" : 1144,
+    "InstName" : "u_bt_servo_ctrl",
+    "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/bt_servo_ctrl.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "bt_servo_ctrl",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/bt_servo_ctrl.v",
+      "InstLine" : 20,
+      "InstName" : "u_rx",
+      "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/uart_rx.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "uart_rx"
+     },
+     {
+      "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/bt_servo_ctrl.v",
+      "InstLine" : 24,
+      "InstName" : "u_tx",
+      "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/uart_tx.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "uart_tx"
+     },
+     {
+      "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/bt_servo_ctrl.v",
+      "InstLine" : 120,
+      "InstName" : "u_servo",
+      "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/servo_pwm.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "servo_pwm"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/video_timing_check.v",
+  "InstLine" : 1,
+  "InstName" : "timing_check",
+  "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/video_timing_check.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "timing_check"
+ },
+ {
+  "InstFile" : "C:/Users/31136/Desktop/camera/cam360/src/yuv422_to_rgb565.v",
+  "InstLine" : 1,
+  "InstName" : "yuv422_to_rgb565",
+  "ModuleFile" : "C:/Users/31136/Desktop/camera/cam360/src/yuv422_to_rgb565.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "yuv422_to_rgb565"
+ }
+]

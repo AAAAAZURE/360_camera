@@ -1,0 +1,35 @@
+Reading netlist file: "C:\Users\31136\Desktop\camera\cam360\impl\gwsynthesis\cam2dvi.vg"
+Parsing netlist file "C:\Users\31136\Desktop\camera\cam360\impl\gwsynthesis\cam2dvi.vg" completed
+WARN  (PA1019) : Invalid VCO frequency 'FCLKIN*FBDIV_SEL*(MDIV_SEL+MDIV_FRAC_SEL/8)/IDIV_SEL' to 'PLL_inst'(PLL) set by 'TMDS_PLL' of module, suitable range is from 650MHz to 1300MHz.
+Processing netlist completed
+Reading constraint file: "C:\Users\31136\Desktop\camera\cam360\src\138K_DOCK.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1123) : the clock "mem_clk"'s frequency does not match Gowin_PLL_m0/PLL_inst/CLKOUT2's 
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'clk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'cmos_pclk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'c1_pclk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'c2_pclk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\Users\31136\Desktop\camera\cam360\impl\pnr\cam2dvi.power.html" completed
+Generate file "C:\Users\31136\Desktop\camera\cam360\impl\pnr\cam2dvi.pin.html" completed
+Generate file "C:\Users\31136\Desktop\camera\cam360\impl\pnr\cam2dvi.rpt.html" completed
+Generate file "C:\Users\31136\Desktop\camera\cam360\impl\pnr\cam2dvi.rpt.txt" completed
+Generate file "C:\Users\31136\Desktop\camera\cam360\impl\pnr\cam2dvi.tr.html" completed
+Thu Nov  6 21:05:30 2025
+
